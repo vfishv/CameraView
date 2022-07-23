@@ -2,8 +2,8 @@
 buildscript {
 
     extra["minSdkVersion"] = 15
-    extra["compileSdkVersion"] = 31
-    extra["targetSdkVersion"] = 31
+    extra["compileSdkVersion"] = 32
+    extra["targetSdkVersion"] = 32
 
     repositories {
         google()
@@ -13,7 +13,7 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle:7.1.3")
         classpath("io.deepmedia.tools:publisher:0.6.0")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
 
     }
 }
